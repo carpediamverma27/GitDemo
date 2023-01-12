@@ -1,0 +1,27 @@
+STRING
+
+1)String is sequence or group of characters.
+2)String is a class present in java.lang package, but also used as datatype.
+3)Strings are immutable, cannot be modify the same string object.
+
+we acn define the string in two ways-
+
+1)Declaration & Initialization of String.
+2)create a copy of existing String and gives the output as in its specified functionality.   
+
+Different ways to print in java-
+
+i) System.out.print(""); --> next executing line will print in same line.
+ii) System.out.println("");-->next executing line will print in new line. 
+iii) System.out.printf("");-->the values of variables can print in this way-->("X values is %d and Y value is %f");
+iv)  System.out.format("");-->Same as printf(), both works same. the values of variables can print in this way-->("X values is %d and Y value is %f");
+
+%d-->used for integer value.
+%f-->used for float value.
+%c-->used for char value.
+%s-->used for String value.
+
+Note- We can defined the values of decimals and floats in PRECISION AND SCALE FORMATE.
+	Ex- b=5.6454f
+	S.o.p("the value of b is: %8.2f",b);
+	output- the avlue of b is _ _ _ _ 5.65
